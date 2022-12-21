@@ -8,7 +8,5 @@ public class IfForExample {
         if (a < b) {
             System.out.println("max:" + b);
         }
-
-
     }
 }
