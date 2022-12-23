@@ -8,13 +8,20 @@ public class ArrayUtil {
 //            System.out.print(array[i] + ", ");
 //
 //        }
+//        int min = array[0];
+//        for (int i = 0; i < array.length; i++) {
+//            if (array[i] < min) {
+//                min = array[i];
+//            }
+//        }
+//        System.out.println("amena poqr: " + min);
         int max = array[0];
         for (int i = 0; i < array.length; i++) {
             if (array[i] > max) {
                 max = array[i];
             }
         }
-        System.out.println("amena mec tiv  " + max);
+        System.out.println("amena mec tiv:" + max);
 
 
 //
